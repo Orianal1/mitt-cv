@@ -35,6 +35,12 @@ a:hover {
 	opacity: 0.6;
 }
 
+.avatar {
+	width: 256px;
+	height: auto;
+	border-radius: 10%;
+}
+
 /* Header & Nav */
 header {
 	padding: 2rem 0;
