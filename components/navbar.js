@@ -1,7 +1,7 @@
 const NavBar = {
 	template: `
     <nav>
-		<div class="logo">Oriana Lama är bäst!</div>
+		<div class="logo">Oriana Lama</div>
 		<ul class="nav-links">
 			<li><a href="index.html">Hem</a></li>
 			<li><a href="about.html">Om</a></li>
