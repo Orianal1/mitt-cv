@@ -21,9 +21,9 @@ contactForm.addEventListener("submit", function (event) {
 
 	if (name.length < 2) {
 		const nameError = document.getElementById("name-error");
-		//<p class="error-message" id="name-error"></p>
+		<p class="error-message" id="name-error"></p>
 		nameError.textContent = "Namnet måste vara minst 2 tecken långt.";
-		//<p class="error-message" id="name-error">Namnet måste vara ....</p>
+		<p class="error-message" id="name-error">Namnet måste vara ....</p>
 		nameError.style.display = "block";
 		return;
 	}
