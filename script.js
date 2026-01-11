@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	const contactForm = document.getElementById("contact-form");
 	if (contactForm) {
 		contactForm.addEventListener("submit", (e) => {
-			e.preventDefault();
+			//e.preventDefault();
 			const name = document.getElementById("name").value;
 			const email = document.getElementById("email").value;
 			const message = document.getElementById("message").value;
@@ -44,6 +44,10 @@ document.addEventListener("DOMContentLoaded", () => {
 			alert(
 				`Tack för ditt meddelande, ${name}! Jag återkommer till dig på ${email} så snart som möjligt.`
 			);
+			const nameError = document.getElementById("name-error");
+			nameError.style.display = "none";
+			const emailError = document.getElementById("email-error");
+			emailError.style.display = "none";
 			contactForm.reset();
 		});
 	}
