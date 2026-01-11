@@ -7,61 +7,7 @@ const projects = [
 		title: "Projekt B",
 		description:
 			"En interaktiv applikation för att hantera uppgifter och påminnelser.",
-	},
-	{
-		title: "Projekt A",
-		description: "En webbplats för att visa upp mina projekt och färdigheter.",
-	},
-	{
-		title: "Projekt B",
-		description:
-			"En interaktiv applikation för att hantera uppgifter och påminnelser.",
-	},
-	{
-		title: "Projekt A",
-		description: "En webbplats för att visa upp mina projekt och färdigheter.",
-	},
-	{
-		title: "Projekt B",
-		description:
-			"En interaktiv applikation för att hantera uppgifter och påminnelser.",
-	},
-	{
-		title: "Projekt A",
-		description: "En webbplats för att visa upp mina projekt och färdigheter.",
-	},
-	{
-		title: "Projekt B",
-		description:
-			"En interaktiv applikation för att hantera uppgifter och påminnelser.",
-	},
-	{
-		title: "Projekt A",
-		description: "En webbplats för att visa upp mina projekt och färdigheter.",
-	},
-	{
-		title: "Projekt B",
-		description:
-			"En interaktiv applikation för att hantera uppgifter och påminnelser.",
-	},
-	{
-		title: "Projekt A",
-		description: "En webbplats för att visa upp mina projekt och färdigheter.",
-	},
-	{
-		title: "Projekt B",
-		description:
-			"En interaktiv applikation för att hantera uppgifter och påminnelser.",
-	},
-	{
-		title: "Projekt A",
-		description: "En webbplats för att visa upp mina projekt och färdigheter.",
-	},
-	{
-		title: "Projekt B",
-		description:
-			"En interaktiv applikation för att hantera uppgifter och påminnelser.",
-	},
+	}
 ];
 
 function addProjectsToHTML() {
