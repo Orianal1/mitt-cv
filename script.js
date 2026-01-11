@@ -44,10 +44,6 @@ document.addEventListener("DOMContentLoaded", () => {
 			alert(
 				`Tack för ditt meddelande, ${name}! Jag återkommer till dig på ${email} så snart som möjligt.`
 			);
-			const nameError = document.getElementById("name-error");
-			nameError.style.display = "none";
-			const emailError = document.getElementById("email-error");
-			emailError.style.display = "none";
 			contactForm.reset();
 		});
 	}
