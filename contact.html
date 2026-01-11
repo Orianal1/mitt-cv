@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Kontakt - Mitt CV</title>
 		<link rel="stylesheet" href="style.css" />
-		<script src="script.js" defer></script>
+		<script src="contact.js" defer></script>
 	</head>
 	<body>
 		<header>
@@ -32,7 +32,7 @@
 				</section>
 
 				<section>
-					<form id="contact-form" onsubmit="return false">
+					<form id="contact-form">
 						<label for="name">Namn</label>
 						<input
 							type="text"
@@ -41,7 +41,7 @@
 							required
 							placeholder="Ditt namn"
 						/>
-
+						<div class="error-message" id="name-error"></div>
 						<label for="email">E-post</label>
 						<input
 							type="email"
@@ -50,7 +50,7 @@
 							required
 							placeholder="din.epost@exempel.se"
 						/>
-
+						<div class="error-message" id="email-error"></div>
 						<label for="message">Meddelande</label>
 						<textarea
 							id="message"
@@ -59,7 +59,7 @@
 							required
 							placeholder="Ditt meddelande här..."
 						></textarea>
-
+						<div class="error-message" id="message-error"></div>
 						<button type="submit">Skicka Meddelande</button>
 					</form>
 				</section>

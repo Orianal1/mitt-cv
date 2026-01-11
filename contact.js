@@ -1,9 +1,10 @@
 console.log("Contact.js is loaded.");
 
-const contactForm = document.getElementById("contactForm");
+const contactForm = document.getElementById("contact-form");
 
 contactForm.addEventListener("submit", function (event) {
-	event.preventDefault();
+	//event.preventDefault();
+
 
 	const name = document.getElementById("name").value;
 	const email = document.getElementById("email").value;
