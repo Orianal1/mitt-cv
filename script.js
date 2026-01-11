@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	const contactForm = document.getElementById("contact-form");
 	if (contactForm) {
 		contactForm.addEventListener("submit", (e) => {
-			e.preventDefault();
+			
 			const name = document.getElementById("name").value;
 			const email = document.getElementById("email").value;
 			const message = document.getElementById("message").value;
@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 			if (!name || !email || !message) {
 				alert("Vänligen fyll i alla fält innan du skickar meddelandet.");
+				e.preventDefault();
 				return;
 			}
 
@@ -32,6 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				const nameError = document.getElementById("name-error");
 				nameError.textContent = "Namnet måste vara minst 2 tecken långt.";
 				nameError.style.display = "block";
+				e.preventDefault();
 				return;
 			}
 
