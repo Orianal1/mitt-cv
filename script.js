@@ -34,9 +34,9 @@ document.addEventListener("DOMContentLoaded", () => {
 				nameError.style.display = "block";
 				return;
 			}
-			if (email.length < 5 || !email.includes("@")) {
+			if (email.length < 7 || !email.includes("@")) {
 				const emailError = document.getElementById("email-error");
-				emailError.textContent = "E-postadressen måste vara minst 5 tecken lång.";
+				emailError.textContent = "E-postadressen måste vara minst 7 tecken lång.";
 				emailError.style.display = "block";
 				return;
 			}
