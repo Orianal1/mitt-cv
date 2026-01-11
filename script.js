@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	const contactForm = document.getElementById("contact-form");
 	if (contactForm) {
 		contactForm.addEventListener("submit", (e) => {
-			//e.preventDefault();
+			e.preventDefault();
 			const name = document.getElementById("name").value;
 			const email = document.getElementById("email").value;
 			const message = document.getElementById("message").value;
